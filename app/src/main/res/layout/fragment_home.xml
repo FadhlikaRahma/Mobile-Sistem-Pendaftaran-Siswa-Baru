@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:background="@color/TAku"
+
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:layout_width="480dp"
+        android:layout_height="45dp"
+        android:layout_gravity="start"
+        android:src="@drawable/banner">
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:gravity="center">
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="110dp"
+    android:layout_marginLeft="99dp"
+    android:layout_marginTop="0dp"
+    android:src="@drawable/sekolah">
+</ImageView>
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="111dp"
+            android:textSize="14dp"
+            android:text="Informasi PPDB Online"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="135dp"
+            android:textSize="12dp"
+            android:textAlignment="inherit"
+            android:layout_marginLeft="1dp"
+
+            android:text="SMP NEGERI 2 KEBONAGUNG menyediakan PPDB secara online diharapkan proses PPDB dapat berjalan cepat dan bisa dilakukan dimanapun dan kapanpun selama sesi PPDB Online dibuka. Proses pendaftaran calon siswa baru tidak menggunakan formulir konvensional hanya dengan mengakses website PPDB Online SMP NEGERI 2 KEBONAGUNG. Pengisian form PPDB Online mohon diperhatikan data yang dibutuhkan yang nantinya akan dipakai dalam proses PPDB. Setelah proses pengisian form PPDB secara online berhasil dilakukan, calon siswa akan mendapat bukti daftar dengan nomor pendaftaran dan harus disimpan yang akan digunakan untuk proses selanjutnya. " />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="560dp"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Informasi dan Kontak"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:text="0895413420538" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="start"
+            android:text="Panitia PPDB" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:gravity="start"
+            android:text="Jl Pacitan-lorok Krajan, Ketro, Kec. Kebonagung, Kabupaten Pacitan, Jawa Timur 63561" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp"
+            android:gravity="start"
+            android:text="Buka: Senin - Jum'at pukul 08:00 - 16:00 WIB" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Tanggal Penting Pendaftran SMPN 2 Kebonagung"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="start"
+            android:text="Agenda Penerimaan Siswa Baru SMPN 2 Kebonagung adalah sebagai berikut:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:gravity="start"
+            android:text="Pendaftaran : 1 Juni 202- 30 Juni 2022" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+            android:gravity="start"
+            android:text="Penutupan Pendaftaran : 1 Juli 2022" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="110dp"
+            android:gravity="start"
+            android:text="Pengumuman Pendaftaran : 2 Juli 2022" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130dp"
+            android:gravity="start"
+            android:text="Daftar Ulang : 3 Juli 2022- 10 Juli 2022" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:gravity="start"
+            android:text="Pelaksanaan MPLS : 11 Juli 2022- 17 Juli 2022" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="170dp"
+            android:gravity="start"
+            android:text="Permulaan Tahun ajaran baru : 18 Juli 2022" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_Menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
